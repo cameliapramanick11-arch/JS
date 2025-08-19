@@ -59,3 +59,48 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+// ******************** Operations ********************
+
+let value = 3
+let negValue = -value
+console.log(negValue); // output: -3
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2**2); // output 2^2: 4
+console.log(2**3); // output 2^3: 8
+console.log(2/3);
+console.log(2%3); // output of remainder or modulus: 2
+
+let str1 = "hello"
+let str2 = " Camelia"
+
+let str3 = str1 + str2
+console.log(str3); // output: hello Camelia
+
+console.log("1"+ 2); // output: 12
+console.log(1 + "2"); // output: 12
+console.log("1" + "2"); //output: 12
+console.log("1" + 2 + 2); // output: 122
+console.log(1 + 2 + "2"); // output: 32; Don't write this type of code
+console.log(3 + 4 * 5 % 3); // output: 5; Don't write this type of code
+
+console.log(true); // output: true
+console.log(+true); // output: 1
+// console.log(true+); // Error!!
+console.log(+""); // output: 0
+
+let num1, num2, num3
+num1 = num2 = num3 = 2 + 2 
+
+let gameCounter = 100
+gameCounter++
+console.log(gameCounter); // output: 101
+let gameCounter2 = 100
+++gameCounter2
+console.log(gameCounter2); // output: 101
+
+//Link to study:
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
