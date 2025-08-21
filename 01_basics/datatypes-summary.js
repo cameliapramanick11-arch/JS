@@ -42,3 +42,30 @@ console.log(typeof anotherId); // output: symbol
 
 // Link to study:
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+ // ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ // Stack (Primitive), Heap (Non-Primitive)
+
+ let myYoutubename = "cameliapramanickdotcom" // string datatype
+
+ let anothername = myYoutubename
+ anothername = "cameliaheredotcom"
+
+ console.log(anothername);  // output: cameliaheredotcom
+ console.log(myYoutubename);  // output: cameliapramanickdotcom; Not changed original one because it makes a copy in stack memory.
+ 
+ let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+ } // object datatype
+ 
+ let userTwo = userOne
+ 
+ userTwo.email = "camelia@google.com"
+
+ console.log(userOne.email);  // output: camelia@google.com; Changed the original one also because it takes reference (original) from the same heap memory space.
+ console.log(userTwo.email);  // output: camelia@google.com
+ 
