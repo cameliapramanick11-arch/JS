@@ -9,7 +9,7 @@ console.log(myArr[1]);
 
 // Array methods
 
-myArr.push(6) // With push or pop method we can push new array elements in an array even in a const array but, we cannot change any values of an const variable.
+myArr.push(6) // With push or pop method we can push or pop new array elements in an array even in a const array but, we cannot change any values of an const variable.
 
 myArr.push(7)
 myArr.pop() // No arguements just removes the last value of the array.
